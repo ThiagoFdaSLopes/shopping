@@ -27,7 +27,7 @@ export const Item = styled.div`
   justify-content: center;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.05);
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
 `;
 

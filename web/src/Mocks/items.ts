@@ -13,14 +13,24 @@ const items = [
     image: hamburger,
   },
   {
-    name: "Grape Juice",
+    name: "Cookies",
     price: "100",
-    image: grapejuice,
+    image: cookies,
   },
   {
-    name: "Acerola Juice",
+    name: "Chocolate",
     price: "100",
-    image: acerolajuice,
+    image: chocolate,
+  },
+  {
+    name: "Cupcake",
+    price: "100",
+    image: cupcake,
+  },
+  {
+    name: "X - Salada",
+    price: "100",
+    image: hamburger2,
   },
   {
     name: "Cookies",
