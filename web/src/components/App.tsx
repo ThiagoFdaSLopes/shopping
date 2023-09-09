@@ -1,7 +1,7 @@
 import React from "react";
 import { debugData } from "../utils/debugData";
 import MenuLeft from "./MenuLeft";
-import { MenuShoppingList } from "./ShoppingList/style";
+import ShoppingList from "./ShoppingList";
 import MenuRight from "./MenuRight";
 import Header from "./Header";
 import { Main } from "./style";
@@ -20,7 +20,7 @@ const App: React.FC = () => {
     <Main>
       <Header />
       <MenuLeft />
-      <MenuShoppingList />
+      <ShoppingList />
       <MenuRight />
     </Main>
   );
