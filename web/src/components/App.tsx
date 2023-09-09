@@ -1,6 +1,10 @@
 import React from "react";
-import "./App.css";
 import { debugData } from "../utils/debugData";
+import MenuLeft from "./MenuLeft";
+import { MenuShoppingList } from "./ShoppingList/style";
+import MenuRight from "./MenuRight";
+import Header from "./Header";
+import { Main } from "./style";
 
 // This will set the NUI to visible if we are
 // developing in browser
@@ -13,9 +17,12 @@ debugData([
 
 const App: React.FC = () => {
   return (
-    <>
-      <h1>Oi</h1>
-    </>
+    <Main>
+      <Header />
+      <MenuLeft />
+      <MenuShoppingList />
+      <MenuRight />
+    </Main>
   );
 };
 
