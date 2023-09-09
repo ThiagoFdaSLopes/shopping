@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    body {
+        background: rgba(0, 85, 243, 0.6);
+    }
 `;
 
 export default GlobalStyle;
